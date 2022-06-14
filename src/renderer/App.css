@@ -4,14 +4,9 @@
  */
 body {
   position: relative;
-  color: white;
+  color: #229;
   height: 100vh;
-  background: linear-gradient(
-    200.96deg,
-    #fedc2a -29.09%,
-    #dd5789 51.77%,
-    #7a2c9e 129.35%
-  );
+  background: #efefff33;
   font-family: sans-serif;
   overflow-y: hidden;
   display: flex;
@@ -21,8 +16,9 @@ body {
 
 button {
   background-color: white;
-  padding: 10px 20px;
-  border-radius: 10px;
+  width: 100%;
+  padding: 20px 22px;
+  border-radius: 20px;
   border: none;
   appearance: none;
   font-size: 1.3rem;
@@ -36,6 +32,10 @@ button {
 button:hover {
   transform: scale(1.05);
   opacity: 1;
+}
+
+h1 {
+  text-align: center;
 }
 
 li {
@@ -59,4 +59,18 @@ a:hover {
   justify-content: center;
   align-items: center;
   margin: 20px 0;
+}
+
+#timer input {
+  border: 2px solid #5555cc66;
+  padding: 20px 30px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+#timer label {
+  font-size: 24px;
+  display: block;
+  padding-left: 20px;
 }
